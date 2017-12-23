@@ -1,0 +1,19 @@
+// Mobile Responsive Grid
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .container .main:first-child {
+    grid-row-start: 2;
+  }
+
+  .main .second-a:first-child {
+    grid-row-start: 2;
+  }
+
+  .main {
+    background-color: #7E57C2;
+  }
+
+}
